@@ -2,6 +2,8 @@ This is a compilation test for Allegro 4.2.2 for target platform MS-DOS using DJ
 
 Basically, I'm trying to make a minimalist Allegro/DJGPP program that will actually compile and run as a .EXE file on DOS (using [DOSBox](http://www.dosbox.com/) as testing machine). Compatibility with any other platform, including Windows, is not a necessity.
 
+I'm using Mac OS X, through the DJGPP cross compiler as per [andrewwutw's build-djgpp](https://github.com/andrewwutw/build-djgpp) instructions.
+
 Here's what needs to be done:
 
 - [ ] Getting Allegro to compile using DJGPP (currently, it errors out when trying to compile `msvchelp.c` which requires `windows.h`)
