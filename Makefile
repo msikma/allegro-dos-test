@@ -10,8 +10,7 @@ OBJDIR    = obj
 DISTDIR   = dist
 
 # All source files (*.c) and their corresponding object files.
-SRC       = $(shell find $(SRCDIR) -name "*.c" 2> /dev/null) \
-			$(shell find $(VENDOR) -name "*.c" -not -name "test_*.c" 2> /dev/null)
+SRC       = $(shell find $(SRCDIR) -name "*.c" 2> /dev/null)
 OBJS      = $(SRC:%.c=%.o)
 
 .PHONY: clean dir
