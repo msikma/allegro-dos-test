@@ -6,7 +6,7 @@ I'm using Mac OS X, through the DJGPP cross compiler as per [andrewwutw's build-
 
 Here's what needs to be done:
 
-- [ ] Getting Allegro to compile using DJGPP (currently, it errors out when trying to compile `msvchelp.c` which requires `windows.h`)
+- [x] Getting Allegro to compile using DJGPP (it compiles now, if you run `xmake.sh lib`, generating `lib/djgpp/liballeg.a`)
 - [ ] Writing a simple "hello world" that actually draws something on the screen using Allegro (maybe [this](https://wiki.allegro.cc/index.php?title=Example_ExHello))
 - [ ] Cleaning up and writing a getting started tutorial for anyone else who wants to develop for DOS using a cross compiler on a different host platform
 
