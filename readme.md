@@ -7,9 +7,9 @@ I'm using Mac OS X, through the DJGPP cross compiler as per [andrewwutw's build-
 Here's what needs to be done:
 
 - [x] Getting Allegro to compile using DJGPP (it compiles now, if you run `xmake.sh lib`, generating `lib/djgpp/liballeg.a`)
-- [ ] Writing a simple "hello world" that actually draws something on the screen using Allegro (maybe [this](https://wiki.allegro.cc/index.php?title=Example_ExHello))
+- [x] Copy over the standard [Allegro "hello world" program](https://wiki.allegro.cc/index.php?title=Example_ExHello) and make it produce a working `.exe`
 - [ ] Cleaning up and writing a getting started tutorial for anyone else who wants to develop for DOS using a cross compiler on a different host platform
 
-Currently I'm trying to compile DJGPP using a completely stock Makefile, but this might be the wrong approach. This is after running `fix.sh djgpp` inside of its directory, which has already been done to the checked in files in `/vendor`.
+It seems to work. The "hello world" program compiles and works under DOSBox. More investigation is needed to verify that everything is OK, and then a documentation process is needed.
 
 MIT license
