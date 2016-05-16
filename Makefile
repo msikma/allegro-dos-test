@@ -1,7 +1,7 @@
 
 CC        = $(DJGPP_CC)
 VENDOR    = vendor
-CFLAGS    = -DHAVE_STDBOOL_H=1
+CFLAGS    = -DHAVE_STDBOOL_H=1 -Ivendor/allegro-4.2.2-djgpp-xc/include
 LDFLAGS   = -Lvendor/allegro-4.2.2-djgpp-xc/lib/djgpp -lalleg
 
 BIN       = main.exe
